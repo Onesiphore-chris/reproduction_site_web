@@ -248,3 +248,94 @@ header{
     margin-right: auto;
     align-items: center;
 }
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work .blog {
+    text-align: center;
+}
+.work .blog h5{
+    font-size: 12px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.work .blog h3{
+    font-size: 46px;
+    font-weight: 300;
+    text-align: center;
+    padding: 10px;
+}
+.work .list{
+  display: flex;
+  padding: 40px;
+  
+}
+.work .list .items{
+    display: block;
+    justify-content: space-between;
+    padding: 20px;
+}
+.work .list .items h4{
+    font-size: 35px;
+    font-weight: 500;
+   
+}
+.work .list .items p{
+    font-size: 20px;
+    padding: 20px 0;
+    color: #5d5c5c;
+    font-weight: 200;
+ 
+}
+
+.bloc .bloc-container{
+    width: 100%;
+    background: #e4e4e4;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bloc .bloc-container h2{
+    font-size: 32px;
+    font-weight: 300;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.bloc .bloc-container p{
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.bloc .bloc-container .btn-bloc{
+    padding: 15px 20px;
+    background: #000;
+    margin-top: 30px;
+}
+.bloc .bloc-container .btn-bloc a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.footer-pn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-pn i{
+    font-size: 10px;
+    padding: 10px;
+}
+.footer-pn p{
+    font-size: 12px;
+    font-weight:200;
+    color: #a5a5a5;
+}
+
